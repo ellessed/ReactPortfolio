@@ -1,11 +1,12 @@
 import React from "react";
 import myself from "../assets/My project.png";
+import "../index.css";
 
 export default function About() {
   return (
     <>
-      <div className="myself-img">
-        <img alt="developer" src={myself} />
+      <div>
+        <img alt="developer" src={myself} className="myself-img" />
         <p>
           Hello. My name is Ellesse. I am a Juniour Web Developer from
           Birmingham. I enjoy learning how things work, fixing things that are
