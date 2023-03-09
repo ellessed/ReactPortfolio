@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ellessed/ReactPortfolio/static/css/main.c4fcd931.css",
+    "main.js": "/ellessed/ReactPortfolio/static/js/main.97549c15.js",
+    "static/media/My project.png": "/ellessed/ReactPortfolio/static/media/My project.e000035fe7530413a35d.png",
+    "index.html": "/ellessed/ReactPortfolio/index.html",
+    "main.c4fcd931.css.map": "/ellessed/ReactPortfolio/static/css/main.c4fcd931.css.map",
+    "main.97549c15.js.map": "/ellessed/ReactPortfolio/static/js/main.97549c15.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4fcd931.css",
+    "static/js/main.97549c15.js"
+  ]
+}
