@@ -1,4 +1,5 @@
 import React from "react";
+import AboutMe from "./pages/About";
 import Footer from "./components/Footer";
 import PortfolioContainer from "./components/PortfolioContainer";
 
