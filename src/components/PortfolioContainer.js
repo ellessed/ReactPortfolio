@@ -1,18 +1,18 @@
 import React, { useState } from "react";
 import NavTabs from "../components/NavTabs";
-import About from "../pages/About";
+import AboutMe from "../pages/About";
 import Contact from "../pages/Contact";
 import Portfolio from "../pages/Portfolio";
 import Resume from "../pages/Resume";
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState("About");
+  const [currentPage, setCurrentPage] = useState("AboutMe");
 
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
   const renderPage = () => {
     switch (currentPage) {
       case "About":
-        return <About />;
+        return <AboutMe />;
 
       case "Portfolio":
         return <Portfolio />;
@@ -24,7 +24,7 @@ export default function PortfolioContainer() {
         return <Contact />;
 
       default:
-        return <About />;
+        return <AboutMe />;
     }
   };
 
