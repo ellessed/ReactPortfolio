@@ -9,7 +9,7 @@ const AboutMe = () => {
           <h1>About Me</h1>
           <div className="about">
             <div className="bio">
-              <p>
+              <p className="test">
                 Welcome to my portfolio page! My name is Ellesse and I am a
                 junior software developer with a passion for creating innovative
                 and impactful solutions through code. I am excited to showcase

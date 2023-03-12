@@ -1,3 +1,6 @@
+body {
+  background-color: rgb(151, 194, 240) !important;
+}
 .about {
   display: flex;
   width: 90%;
@@ -41,14 +44,14 @@
 }
 
 .card-button {
-  background-color: #4caf50; /* Green */
-  border: #7d68fb;
-  color: rgb(255, 20, 20);
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+  background-color: #ffffff;
+  color: #000;
+  border-radius: 20px;
+  border: 1px solid #000;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+  padding: 5px 10px;
   font-size: 16px;
+  font-weight: 500;
 }
 
 .container {
@@ -56,7 +59,6 @@
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(94, 124, 157);
 }
 
 .footer {
@@ -108,4 +110,11 @@
   .social-icons {
     height: 32px;
   }
+}
+
+.test {
+  display: flex;
+  padding: 70px 0;
+  border: 3px solid green;
+  text-align: center;
 }

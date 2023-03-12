@@ -51,6 +51,9 @@ export default function Contact() {
             ></textarea>
           </div>
         </div>
+        <button className="card-button" type="submit">
+          Send
+        </button>
       </div>
     </div>
   );
