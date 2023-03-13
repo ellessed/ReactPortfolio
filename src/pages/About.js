@@ -17,9 +17,7 @@ const AboutMe = () => {
                 proficiency in various programming languages, tools, and
                 technologies. As a junior developer, I am constantly seeking to
                 learn and improve my craft, and this portfolio is a reflection
-                of my dedication to honing my skills. My goal is to contribute
-                to the development of meaningful applications that make a
-                positive difference in people's lives. In this portfolio, you
+                of my dedication to honing my skills. In this portfolio, you
                 will find examples of my work, ranging from personal projects to
                 team collaborations. Each project demonstrates my
                 problem-solving abilities, creativity, and attention to detail.

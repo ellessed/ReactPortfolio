@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(151, 194, 240) !important;
+  background-color: rgb(225, 186, 237) !important;
 }
 .about {
   display: flex;
@@ -10,6 +10,8 @@ body {
   margin-top: 50px;
   line-height: 1.5;
   font-weight: 200;
+  font-family: "Lucida Console", "Courier New";
+  font-size: 20px;
 }
 .about-top {
   display: flex;
@@ -58,17 +60,18 @@ body {
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: blue;
+  color: rgb(1, 0, 0);
 }
 
 .footer {
-  padding: 12px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 24px;
+  margin-top: auto;
 }
-
+h1 {
+  text-align: center;
+}
 .more-info {
   display: flex;
   flex-direction: column;
