@@ -5,11 +5,11 @@ const AboutMe = () => {
   return (
     <>
       <div className="container">
-        <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3">
+        <div className="">
           <h1>About Me</h1>
           <div className="about">
             <div className="bio">
-              <p className="test">
+              <p>
                 Welcome to my portfolio page! My name is Ellesse and I am a
                 junior software developer with a passion for creating innovative
                 and impactful solutions through code. I am excited to showcase

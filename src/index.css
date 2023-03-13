@@ -8,9 +8,8 @@ body {
 }
 .about p {
   margin-top: 50px;
-  font-size: 1.2rem;
   line-height: 1.5;
-  text-align: center;
+  font-weight: 200;
 }
 .about-top {
   display: flex;
@@ -59,6 +58,7 @@ body {
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: blue;
 }
 
 .footer {
@@ -113,7 +113,6 @@ body {
 }
 
 .test {
-  display: flex;
   padding: 70px 0;
   border: 3px solid green;
   text-align: center;
