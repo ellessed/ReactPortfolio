@@ -1,4 +1,5 @@
 import React from "react";
+import Alert from "../components/Alert";
 
 export default function Contact() {
   return (
@@ -51,9 +52,11 @@ export default function Contact() {
             ></textarea>
           </div>
         </div>
-        <button className="card-button" type="submit">
+        {/* <button className="card-button" type="submit">
           Send
-        </button>
+        </button> */}
+
+        <Alert />
       </div>
     </div>
   );
